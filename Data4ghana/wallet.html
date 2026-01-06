@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fund Wallet</title>
+<link rel="stylesheet" href="wallet.css">
+
+<script src="https://js.paystack.co/v1/inline.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Fund Wallet</h2>
+
+<div class="balance-card">
+<p>Current Balance</p>
+<h1>₵1230.00</h1>
+</div>
+
+<div class="section">
+
+<h3>Select Payment Method</h3>
+
+<div class="method selected">
+<h4>Paystack</h4>
+<p>MTN, Vodafone, AirtelTigo Mobile Money, Card</p>
+</div>
+
+</div>
+
+<div class="section">
+
+<label>Enter Amount</label>
+<input type="number" id="amount" placeholder="Enter amount">
+
+<button onclick="payWithPaystack()" class="fund-btn">
+Fund Wallet
+</button>
+
+</div>
+
+</div>
+
+<script src="wallet.js"></script>
+
+</body>
+</html>
