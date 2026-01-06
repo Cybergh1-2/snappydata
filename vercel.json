@@ -1,4 +1,5 @@
 {
-  "buildCommand": "",
-  "outputDirectory": "Data4ghana"
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/Data4ghana/$1" }
+  ]
 }
