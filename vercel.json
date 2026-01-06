@@ -1,5 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/Data4ghana/$1" }
-  ]
+  "outputDirectory": "Data4ghana"
 }
